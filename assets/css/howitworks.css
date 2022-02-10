@@ -1,0 +1,285 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+.navbar_section {
+  display: flex;
+  flex-direction: row;
+  background-color: #045252;
+  height: 60px;
+  color: white;
+  padding-top: 5px;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.logo_section img {
+  margin-left: 20px;
+  margin-top: 5px;
+  width: 100px;
+  height: 150px;
+}
+.menu_bar {
+  display: flex;
+  margin-top: 5px;
+  align-items: center;
+  margin-left: auto;
+}
+.menu_option a {
+  text-decoration: none;
+  margin-right: 20px;
+  color: white;
+  font-size: 16px;
+  padding: 12px 16px;
+  text-align: center;
+  overflow: hidden;
+  float: left;
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: #045252;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: #045252;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #045252;
+  min-width: 15%;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: white;
+
+  padding: 12px 16px;
+  text-decoration: none;
+  width: 84%;
+  display: block;
+  text-align: left;
+  border-bottom: 2px solid #b0f3f3;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  color: #14b3b3;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/* .............................................................................. */
+/* ///////////////////////////////////////////////////////////////////////////////// */
+
+.row {
+  display: flex;
+  flex-direction: row;
+  margin: 15px;
+}
+
+#circle {
+  width: 10px;
+  height: 10px;
+  border: 1px solid #0fb7a2;
+  border-radius: 100%;
+  margin: 5px;
+}
+/* new sections////////////////////////////////////////////////////////////////////////////////////////// */
+
+.container {
+  height: 850px;
+  background-color: #33322d;
+}
+.heading hr {
+  width: 12%;
+  margin-top: 10px;
+  text-align: center;
+  border: none;
+  margin: auto;
+  height: 3px;
+  color: #14b3b3;
+  background-color: #0fb7a2;
+}
+.heading h1 {
+  letter-spacing: 4px;
+  font-size: 25px;
+  text-align: center;
+  color: white;
+  padding-top: 100px;
+  margin-bottom: 10px;
+}
+.subheading {
+  display: flex;
+  flex-direction: row;
+  height: 150px;
+  align-items: center;
+}
+.number {
+  flex: 1;
+  text-align: center;
+}
+.number p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  margin: auto;
+  border-radius: 100%;
+  background-color: #14b3b3;
+  font-size: 30px;
+  color: white;
+}
+.subheadingtext {
+  flex: 4;
+  text-align: center;
+}
+.subheadingtext span {
+  font-weight: bold;
+  color: white;
+}
+.thirdsection_locations {
+  display: flex;
+}
+.map {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.map img {
+  height: 250px;
+  text-align: center;
+}
+.location_cities {
+  flex: 1;
+  text-align: left;
+}
+.location_cities .title {
+  color: white;
+  font-size: 16px;
+  text-align: left;
+  font-weight: bold;
+  padding: 10px;
+  margin-left: 40px;
+  word-spacing: 5px;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.city_name {
+  width: 150px;
+  color: grey;
+  height: 20px;
+  background-color: white;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 5px;
+}
+.citynumber {
+  color: #14b3b3;
+  margin-top: 5px;
+}
+.circle {
+  border-color: 2px solid #14b3b3;
+}
+/* section completing /////////////////////////////////////////////////////////////// */
+.container_numbers {
+  display: flex;
+  align-items: center;
+
+  padding: 15px;
+}
+.number_circle {
+  flex: 1;
+  align-items: center;
+  text-align: center;
+}
+
+.number_circle > p {
+  font-size: 30px;
+  color: white;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #14b3b3;
+  border-radius: 100%;
+  margin: auto;
+}
+.middle_text {
+  flex: 4;
+
+  padding: 10px;
+}
+.middle_text h4,
+a {
+  color: #14b3b3;
+  text-decoration: none;
+}
+.middle_text p {
+  color: grey;
+  font-size: 12px;
+  padding: 5px;
+}
+.container_numbers {
+  background-image: linear-gradient(to right, #e0ebee, #e5dcdd);
+}
+#white {
+  background-color: white;
+  background-image: none;
+}
+#fourth {
+  background-color: white;
+  color: #0fb7a2;
+}
+#gradient4 {
+  background-image: linear-gradient(to right, darkcyan, CYAN);
+}
+#fourthPara P {
+  color: white;
+  margin-bottom: 5px;
+}
+#last {
+  background-color: #33322d;
+  background-image: none;
+}
+#lastPara p {
+  color: white;
+}
+.filled {
+  background-color: #14b3b3;
+}
+#filled {
+  background-color: #0fb7a2;
+  color: white;
+}

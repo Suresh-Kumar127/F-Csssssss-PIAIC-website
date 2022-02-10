@@ -1,0 +1,159 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.sectionmain {
+  background-color: #192a56;
+  height: 600px;
+  color: #f1e7e7;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.Name h3 {
+  font-size: 70px;
+  font-weight: 600;
+}
+.Name h5 {
+  text-shadow: 0px 0px 3px;
+}
+.program {
+  text-align: center;
+  color: #192a56;
+  padding: 40px;
+}
+.program h5 {
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.program p {
+  font-size: 20px;
+  text-shadow: 0px 0px 2px;
+}
+/* technical track///////////////////////////////////////////////////// */
+.technicaltrack {
+  margin-left: 50px;
+}
+.technicaltrack h3 {
+  color: rgb(43, 100, 95);
+  font-size: 25px;
+}
+.boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 40px;
+}
+
+.box {
+  flex: 1;
+  text-align: center;
+  box-shadow: 0px 0px 7px;
+  margin: 10px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 5px;
+}
+#first {
+  box-shadow: none;
+}
+.box img {
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: auto;
+}
+.box h2 {
+  font-size: 25px;
+  color: white;
+}
+#colored {
+  color: #192a56;
+}
+#quarter2 {
+  background-color: #192a569f;
+  color: whitesmoke;
+  text-shadow: 0px 1px 3px;
+}
+#quarter3 {
+  background-color: #192a56d5;
+  color: whitesmoke;
+  text-shadow: 0px 1px 3px;
+}
+#quarter4 {
+  background-color: #192a56;
+  color: whitesmoke;
+  text-shadow: 0px 1px 3px;
+}
+/* second same section */
+#quarter22,
+#quarter22 h2 {
+  color: black;
+}
+#quarter24,
+#quarter24 h2 + p {
+  color: white;
+  background-color: black;
+}
+#quarter23,
+#quarter p {
+  background-color: rgba(0, 0, 0, 0.753);
+  color: white;
+}
+#quarter24 .box2 {
+  color: white;
+  box-shadow: 0px 0px 10px black;
+}
+/* neeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeew sectiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiioooooooooooooooooooooooonnnnnnn */
+.rightLeft {
+  display: flex;
+  flex-direction: row;
+}
+.right {
+  display: flex;
+  flex: 1;
+  height: 1000px;
+  flex-direction: row;
+}
+.left {
+  flex: 1;
+  border-left: 5px solid maroon;
+  height: 1000px;
+}
+
+.programcircle {
+  position: absolute;
+  right: 50%;
+  margin-right: -23px;
+}
+.programcircle p {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  border: 3px solid darkgoldenrod;
+  background-color: #192a56;
+  color: white;
+  font-size: 20px;
+  margin-top: 0px;
+}
+.box1 {
+  width: 80%;
+  height: 150px;
+  box-shadow: 0px 0px 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+#position {
+  position: relative;
+  top: 20%;
+  right: 0%;
+  text-align: center;
+}

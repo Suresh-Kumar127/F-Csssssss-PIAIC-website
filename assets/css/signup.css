@@ -1,0 +1,94 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: lightblue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main {
+  width: 600px;
+  height: 900px;
+  margin: auto;
+  border-radius: 10px;
+  background-color: white;
+}
+.main .heading {
+  height: 50px;
+  background-image: linear-gradient(to right, darkcyan, CYAN);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px 10px 0px 0px;
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo {
+  text-align: center;
+  margin: 20px;
+}
+.logo img {
+  width: 90px;
+  height: 130px;
+}
+.title {
+  color: darkcyan;
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+}
+.input_name {
+  color: rgb(21, 189, 189);
+  font-size: 16px;
+  text-align: left;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.red {
+  color: maroon;
+  font-size: 12px;
+  font-weight: bold;
+}
+.container {
+  padding: 30px;
+}
+.form p input {
+  width: 100%;
+  height: 40px;
+  padding: 2px;
+  border: 1px solid rgb(21, 189, 189);
+  border-radius: 5px;
+}
+.links {
+  display: flex;
+  justify-content: space-between;
+}
+.links a {
+  color: darkcyan;
+}
+.affidavit p {
+  color: maroon;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  line-height: 25px;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn button {
+  width: 200px;
+  height: 40px;
+  border: 1px solid darkcyan;
+  border-radius: 25px;
+  font-weight: bold;
+  background-color: transparent;
+  color: darkcyan;
+  font-size: 16px;
+}
